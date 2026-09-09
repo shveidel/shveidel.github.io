@@ -1,1 +1,0 @@
-var e={RUB:1,USD:91.5,EUR:99.2,KZT:.19},t={rate:(t,n)=>e[t]/e[n],convert:(t,n)=>t.amount*e[t.currency]/e[n]},n={BTC:64200,ETH:3280,SOL:148,USDT:1},r={getUsdPrice:e=>n[e]??0};export{t as n,r as t};
